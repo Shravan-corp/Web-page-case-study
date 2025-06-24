@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
 
-df = pd.read_csv("python/Streamlit and fastapi case study/beer-servings.csv")
+df = pd.read_csv("beer-servings.csv")
 print(df.head())
 print(df.shape)
 print(df.info())
