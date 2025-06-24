@@ -4,9 +4,6 @@ import streamlit as st
 import pandas as pd
 from os import path
 import numpy as np
-import matplotlib
-
-matplotlib.use("TkAgg")
 import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
